@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-dark.css">
     <title>Портфолио Junior верстальщика</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
@@ -28,6 +28,11 @@
     <section class="intro">
       <div class="container">
       <h2 class="subheading">Давайте познакомимся</h2>
+        <figure>
+          <div class="photo-container">
+            <img class="photo" src="files/user.jpg"  height="536" alt="Фотография меня">
+          </div>
+        </figure>
       <h3>Пара слов о себе</h3>
       <p>Я - Александр и с самого начала моей самостоятельной жизни я стремлюсь к тому, что бы позновать новое.
       Я начал работать с первого курса. Успел побывать и обслуживающим персоналом в общепите, и помощником на кухне, и даже барбером.
@@ -36,18 +41,34 @@
       Не смотря на то, что ирония жизни занесла меня на факультет жруналистики, я все же уверенно двигаюсь к своей мечте и продолжаю изучать интересные мне сферы жизни.</p>
       <h3>Чем могу быть полезен</h3>
       <p>Текст о том, чем могу быть полезен.</p>
+        <div class="skills">
+          <h3>Мои навыки</h3>
+          <dl class="skills-list">
+            <dt class="skill-html">HTML</dt>
+            <dd class="level"><div style="width: 60%;">60%</div></dd>
+            <dt class="skill-css">CSS</dt>
+            <dd class="level"><div style="width: 40%;">40%</div></dd>
+          </dl>
+        </div>
       </div>
     </section>
 
     <section class="portfolio">
       <div class="container">
       <h2 class="subheading">Мои работы</h2>
-
+        <figure class="project-image">
+          <img class="projects-img" src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
+        </figure>
       <h3>Сайт инструктора Кекса</h3>
       <p>Небольшой лендинг о школе для начинающих.</p>
+        <a class="button" href="source/project/index.html">Открыть страницу</a>
 
+        <figure class="project-image">
+          <img class="projects-img" src="files/project-state-final.JPG" width="928" height="536" alt="Блог начинающего верстальщика">
+        </figure>
       <h3>Блог начинающего верстальщика</h3>
       <p>Статический блог про обучение HTML и CSS.</p>
+        <a class="button" href="source/project-state-final/index.html">Открыть страницу</a>
       </div>
     </section>
 
